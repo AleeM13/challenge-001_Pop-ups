@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+
+/* box---1 */
+.cont__box {
+    background: #ffffff;
+    width: 432px;
+    height: 399px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.cont__box ion-icon {
+    position: absolute;
+    margin: -35px 70px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #2c3e50;
+    transition: all .1s;
+}
+.cont__box ion-icon:hover {
+    font-size: 32px;
+}
+
+.cont__img {
+    position: relative;
+    top: 56px;
+}
+
+.cont__box p {
+    width: 350px;
+    text-align: center;
+    position: relative;
+    padding-top: 70px;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin: 0 auto;
+}
+
+.cont__box button {
+    width: 210px;
+    height: 50px;
+    margin-top: 20px;
+    background: #ed6755;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 10.2px 16px #ed6755;
+    transition: all .2s;
+}
+
+.cont__box button:hover {
+    background: #ec4933;
+    box-shadow: 0 10.2px 16px #bb4636; 
+}
+
+/* box---2 */
+.cont__box-dos {
+    background: #ffffff;
+    width: 432px;
+    height: 399px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.cont__box-dos ion-icon {
+    position: absolute;
+    margin: -35px 99px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #2c3e50;
+    transition: all .1s;
+}
+
+.cont__box-dos ion-icon:hover{
+    font-size: 32px;
+}
+
+.cont__img-dos {
+    position: relative;
+    top: 70px;
+}
+
+.cont__box-dos p {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin: 0 auto;
+}
+
+.cont__box-dos button {
+    width: 210px;
+    height: 50px;
+    margin-top: 50px;
+    background: #2c3e50;
+    color: #ffffff;
+    border: 1px solid #2c3e50;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 5px 10px #2c3e50;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.cont__box-dos button:hover {
+    background: #527aa3;
+    box-shadow: 0 10.2px 16px #3a5066; 
+}
